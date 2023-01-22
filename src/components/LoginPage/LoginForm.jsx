@@ -3,7 +3,7 @@ export default function (props) {
 		<form className="w-full h-full">
 			<img className="w-48 mx-auto mt-10" src="/assets/logo.jpg" alt="React Image" />
 			<p className="text-center mt-5 text-2xl">Antonio Pichon Jr. Elementary School</p>
-			<div className="mx-auto w-fit my-8 text-5xl font-bold">Login</div>
+			<div className="mx-auto w-fit my-8 text-5xl font-bold">{props.title}</div>
 			<div className="flex flex-col w-full mx-auto">
 				<label for="inputUsername" className="mt-5 w-11/12 mx-auto">
 					<span className="block">{props.inputLabel1}</span>
