@@ -1,7 +1,7 @@
 export default function (props) {
 	return (
-		<form className="w-full">
-			<img className="w-48 mx-auto" src="/assets/logo.jpg" alt="React Image" />
+		<form className="w-full h-full">
+			<img className="w-48 mx-auto mt-10" src="/assets/logo.jpg" alt="React Image" />
 			<p className="text-center mt-5 text-2xl">Antonio Pichon Jr. Elementary School</p>
 			<div className="mx-auto w-fit my-8 text-5xl font-bold">Login</div>
 			<div className="flex flex-col w-full mx-auto">
@@ -27,7 +27,7 @@ export default function (props) {
 					{props.buttonLabel1}
 				</button>
 			</div>
-			<div className="mx-auto w-fit mt-10 tablet:mt-60">
+			<div className="mx-auto w-fit mt-20 tablet:mt-60 tablet:pb-8">
 				<p>
 					{`${props.p1} `}
 					<a href="#" className="text-blue-500 underline">
