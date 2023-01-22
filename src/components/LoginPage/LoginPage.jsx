@@ -9,6 +9,7 @@ export default function () {
 			</div>
 			<div className="flex items-center bg-white w-full tablet:w-2/5 desktop:w-30% h-800px tablet:h-screen overflow-y-auto">
 				<LoginForm
+					title="Student Login"
 					inputLabel1="Username"
 					inputLabel2="Password"
 					buttonLabel1="Login"
