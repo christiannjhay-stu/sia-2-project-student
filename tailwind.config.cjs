@@ -5,7 +5,9 @@ module.exports = {
 		extend: {
 			colors: {
 				"theme-blue": "#084784",
+				"theme-light-blue": "#4E7FAE",
 				"theme-red": "#DB092B",
+				gainsboro: "#D9D9D9",
 			},
 			height: {
 				"95%": "95%",
@@ -19,6 +21,7 @@ module.exports = {
 				tablet: "1024px",
 			},
 			width: {
+				"75rem": "75rem",
 				"95%": "95%",
 				"70%": "70%",
 				"30%": "30%",
