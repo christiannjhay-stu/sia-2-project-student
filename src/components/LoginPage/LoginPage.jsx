@@ -14,7 +14,7 @@ export default function () {
 					inputLabel2="Password"
 					buttonLabel1="Login"
 					p1="New Student?"
-					link1="Enroll Here"
+					link1="Apply Here"
 				/>
 			</div>
 		</main>
