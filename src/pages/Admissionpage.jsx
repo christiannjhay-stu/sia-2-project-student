@@ -1,5 +1,5 @@
-import Header from "./Header";
-import AdmissionForm from "./AdmissionForm";
+import Header from "../components/Admissionpage/Header";
+import AdmissionForm from "../components/Admissionpage/AdmissionForm";
 
 export default function () {
 	return (

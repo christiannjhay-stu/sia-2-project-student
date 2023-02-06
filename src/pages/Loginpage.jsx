@@ -1,5 +1,5 @@
-import LoginForm from "./LoginForm";
-import Announcements from "./Announcements";
+import LoginForm from "../components/Loginpage/LoginForm";
+import Announcements from "../components/Loginpage/Announcements";
 
 export default function () {
 	return (
@@ -12,7 +12,6 @@ export default function () {
 					title="Student Login"
 					inputLabel1="Username"
 					inputLabel2="Password"
-					buttonLabel1="Login"
 					p1="New Student?"
 					link1="Apply Here"
 				/>

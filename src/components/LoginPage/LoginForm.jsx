@@ -1,4 +1,5 @@
-import LoginPageInput from "./LoginPageInput";
+import LoginPageInput from "./LoginpageInput";
+import LoginButton from "./LoginButton";
 
 export default function (props) {
 	return (
@@ -23,9 +24,7 @@ export default function (props) {
 						type="password"
 					/>
 				</label>
-				<button className="bg-theme-blue hover:bg-blue-700 text-white text-xl font-bold py-2 rounded-lg w-44 mt-8 mx-auto">
-					{props.buttonLabel1}
-				</button>
+				<LoginButton buttonLabel="Login" />
 			</div>
 			<div className="mx-auto w-fit mt-20 tablet:mt-60 tablet:pb-8">
 				<p>
