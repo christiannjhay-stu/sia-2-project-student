@@ -10,16 +10,18 @@
 
 /* width */
 ::-webkit-scrollbar {
-	background: rgba(255, 255, 255, 0.5);
-	border-radius: 100px;
-	width: 10px;
-	height: 10px;
+	width: 5px;
+	height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: whitesmoke;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #888;
-  border-radius: 10px;
 }
 
 /* Handle on hover */
@@ -30,11 +32,11 @@
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 /* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
+input[type="number"] {
+	-moz-appearance: textfield;
 }
