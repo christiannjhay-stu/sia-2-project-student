@@ -5,8 +5,8 @@ import AdmissionSuccessPage from "./pages/AdmissionSuccessPage";
 import AdmissionFailedPage from "./pages/AdmissionFailedPage";
 import Mainpage from "./pages/Mainpage";
 import Announcements from "./components/Announcementspage/Announcements";
-import Registration from "./components/Registrationpage/Registration";
-import Subjects from "./components/Subjectspage/Subjects";
+import Registration from "./components/Profile/Registration";
+import Subjects from "./components/Grades/Subjects";
 import Attendance from "./components/Attendancepage/Attendance";
 
 const router = createBrowserRouter([
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
 		element: <AdmissionFailedPage />,
 	},
 	{
-		path: "/student",
+		path: "/teacher",
 		element: <Mainpage />,
 		children: [
 			{

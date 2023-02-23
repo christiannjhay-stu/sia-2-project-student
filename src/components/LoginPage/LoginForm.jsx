@@ -26,14 +26,7 @@ export default function (props) {
 				</label>
 				<LoginButton buttonLabel="Login" />
 			</div>
-			<div className="mx-auto w-fit mt-20 tablet:mt-60 tablet:pb-8">
-				<p>
-					{`${props.p1} `}
-					<a href="/admission" className="text-blue-500 underline">
-						{props.link1}
-					</a>
-				</p>
-			</div>
+			
 		</form>
 	);
 }

@@ -12,8 +12,8 @@ export default function () {
 					title="Student Login"
 					inputLabel1="Username"
 					inputLabel2="Password"
-					p1="New Student?"
-					link1="Apply Here"
+					p1="?"
+					link1=""
 				/>
 			</div>
 		</main>

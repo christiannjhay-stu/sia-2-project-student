@@ -11,22 +11,28 @@ export default function () {
 
 			<section className="mx-auto w-1400px px-10 py-5">
 				<div className="flex flex-row items-center justify-center gap-10">
-					<AttendanceButton
-						className="flex-row"
-						buttonText="PREVIOUS"
-						icon={<BsCaretLeftFill className="mb-1" />}
-					/>
-					<H1Month month="JANUARY" />
-					<AttendanceButton
-						className="flex-row-reverse"
-						buttonText="NEXT"
-						icon={<BsCaretRightFill className="mb-1" />}
-					/>
+					
+					<H1Month month="GR:5 LECTUS" />
+					<li className="flex flex-row  gap-2 w-42 mx-1 my-8">
+						<select className="bg-white outline-none rounded-lg py-px w-56 text-center font-bold hover:cursor-pointer">
+							<option value="2023-2024">AUGUST</option>
+							<option value="2023-2024">SEPTEMBER</option>
+							<option value="2023-2024">OCTOBER</option>
+						</select>
+					</li>
+					<li className="flex flex-row  gap-2 w-42 mx-1 my-8">
+						<select className="bg-white outline-none rounded-lg py-px w-56 text-center font-bold hover:cursor-pointer">
+							<option value="2023-2024">WEEK 1</option>
+							<option value="2023-2024">WEEK 2</option>
+							<option value="2023-2024">WEEK 3</option>
+						</select>
+					</li>
 				</div>
 
 				<hr className="my-5 border-4 border-theme-yellow" />
 
 				<AttendanceTable />
+				
 			</section>
 		</div>
 	);

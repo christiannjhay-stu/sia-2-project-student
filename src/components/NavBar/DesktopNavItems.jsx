@@ -12,7 +12,7 @@ export default function (props) {
 					<p className="text-white text-xl tablet:text-2xl font-bold break-words">
 						{props.studentName}
 					</p>
-					<p className="text-base tablet:text-xl text-gray-500">Student</p>
+					<p className="text-base tablet:text-xl text-gray-500">Teacher</p>
 				</div>
 			</li>
 			<li className="flex flex-row justify-center items-center gap-2 w-fit mx-auto my-5">
@@ -35,14 +35,14 @@ export default function (props) {
 				navigate="registration"
 				bgColorNotHover="rgb(6 60 113)"
 				bgColorHover="#4E7FAE"
-				itemName="Registration"
+				itemName="Profile"
 			/>
 			<NavItem
 				className="border-theme-dark-blue border-t tablet:border-t-2 border-b tablet:border-b-2"
 				navigate="subjects"
 				bgColorNotHover="rgb(6 60 113)"
 				bgColorHover="#4E7FAE"
-				itemName="Subjects"
+				itemName="Grades"
 			/>
 			<NavItem
 				className="border-theme-dark-blue border-t tablet:border-t-2 border-b tablet:border-b-2"
@@ -51,13 +51,7 @@ export default function (props) {
 				bgColorHover="#4E7FAE"
 				itemName="Attendance"
 			/>
-			<NavItem
-				className="border-theme-dark-blue border-t tablet:border-t-2 border-b-2 tablet:border-b-4"
-				navigate=""
-				bgColorNotHover="rgb(6 60 113)"
-				bgColorHover="#4E7FAE"
-				itemName="Enroll Here"
-			/>
+			
 			<NavLogoutButton
 				className="flex flex-row justify-center items-center text-xl text-white font-bold bg-red-600 hover:bg-red-800 w-36 py-1 rounded-lg gap-2 mx-auto mt-80"
 				buttonIcon={<BsBoxArrowRight />}
